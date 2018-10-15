@@ -1,0 +1,87 @@
+\documentclass[10pt]{beamer}
+
+\usetheme[progressbar=frametitle]{metropolis}
+\usepackage{appendixnumberbeamer}
+
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+
+\usepackage{pgfplots}
+\usepgfplotslibrary{dateplot}
+
+\usepackage{xspace}
+\newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
+
+\title{ToDoFamily}
+\subtitle{Modern, privlačen in intuitiven ToDo list za celotno družino}
+\date{Zimski semester, 2018/19}
+\author{Aljaž Glavač, Luka Perovič, Andraž Razpor}
+\institute{Univerza v Ljubljani, Fakulteta za računalništvo in informatiko}
+% \titlegraphic{\hfill\includegraphics[height=1.5cm]{logo.pdf}}
+
+\begin{document}
+
+\maketitle
+
+%\begin{frame}{Table of contents}
+%  \setbeamertemplate{section in toc}[sections numbered]
+%  \tableofcontents[hideallsubsections]
+%\end{frame}
+
+\section{Features}
+
+\begin{frame}{Feature -- list}
+    \begin{itemize}
+        \item Avtentikacija
+        \item Sestavljanje družine -- dodajanje otrok
+        \item Vpisovanje opravil
+        \item Določanje pomembnosti 
+        \item Rok opravljenosti
+        \item Dodeljevanje opravila otrokom
+        \item Kreiranje urnika
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Feature -- roadmap}
+\begin{columns}[c]
+    \begin{column}{0.1\textwidth}
+        \hfill 3. 11 \\
+        \hfill 17. 11 \\
+        \hfill 26. 11 \\
+        \hfill 10. 12 \\
+        \hfill 30. 12 \\
+        \hfill 15. 01 \\
+        \hfill 28. 01 \\
+    \end{column}
+    \hspace{-15pt}\vrule\hspace{5pt}%
+    \begin{column}{0.9\textwidth}  %%<--- here
+            Avtentikacija \\
+            Sestavljanje družine -- dodajanje otrok \\
+            Vpisovanje opravil \\
+            Določanje pomembnosti \\
+            Rok opravljenosti \\
+            Dodeljevanje opravila otrokom \\
+            Kreiranje urnika \\
+    \end{column}
+\end{columns}
+\end{frame}
+
+\end{document}
+
+% Commands to include a figure:
+%\begin{figure}
+%\includegraphics[width=\textwidth]{your-figure's-file-name}
+%\caption{\label{fig:your-figure}Caption goes here.}
+%\end{figure}
+
+% Commands to include a table
+%\begin{table}
+%\centering
+%\begin{tabular}{l|r}
+%Item & Quantity \\\hline
+%Widgets & 42 \\
+%Gadgets & 13
+%\end{tabular}
+%\caption{\label{tab:widgets}An example table.}
+%\end{table}
+
